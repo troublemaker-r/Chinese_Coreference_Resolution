@@ -1,15 +1,16 @@
 # SpanBERT for Chinese Coreference Resolution (Pytorch)
 
 - 参考论文： [SpanBERT: Improving Pre-training by Representing and Predicting Spans](https://arxiv.org/abs/1907.10529)
-
-- 参考开源代码（面向英文、使用tensorflow）：[https://github.com/mandarjoshi90/coref](https://github.com/mandarjoshi90/coref)
+- 参考开源代码：[https://github.com/mandarjoshi90/coref](https://github.com/mandarjoshi90/coref)
+  - 上述参考代码使用`tensorflow`实现，并使用英文数据集
 - 预训练模型下载地址：  
   - 中文预训练`RoBERTa`模型（https://github.com/brightmart/roberta_zh）
   - 中文预训练`BERT-wwm`模型（https://github.com/brightmart/roberta_zh）
   -  中文预训练`Bert`模型（https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-chinese.tar.gz）
 
-#### 1. 代码架构：
+#### :ledger: 1. 代码架构：
 
+~~~text
 │ conll.py
 │ coreference.py
 │ demo.py
@@ -36,12 +37,13 @@
  │ bert_config.json
  │ pytorch_model.bin 
  │ vocab.txt
+~~~
 
 **其中**：
 
 **conll.py**：验证集验证所需脚本
 
-**coreference.py** **：**指代消解模型脚本
+**coreference.py **：指代消解模型脚本
 
 **demo.py**：指代消解工程测试脚本
 
@@ -61,12 +63,12 @@
 
 **pretrain_model**：用于存放预训练模型（包含模型、参数配置文件、字典）
 
-#### 2. 运行环境
+#### :orange_book: 2. 运行环境
 
 - 运行环境要求python版本在3.5及以上，运行环境配置见`requirements.txt`
 - 一块`TITAN xp` , 参数选择`[ffnn_size=2000，nun_epochs=30]`，需要7小时左右
 
-#### 3.运行方式
+#### :green_book: ​3. 运行方式
 
 - 在`experiments.conf`文件中配置好向相应的参数，命令行运行：`python demo.py`
   即可，默认使用第三块GPU(编号为2)。
