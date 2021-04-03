@@ -43,7 +43,7 @@
 
 **conll.py**：验证集验证所需脚本
 
-**coreference.py **：指代消解模型脚本
+**coreference.py**：指代消解模型脚本
 
 **demo.py**：指代消解工程测试脚本
 
