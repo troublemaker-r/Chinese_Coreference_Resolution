@@ -4,9 +4,9 @@
 - 参考开源代码：[https://github.com/mandarjoshi90/coref](https://github.com/mandarjoshi90/coref)
   - 上述参考代码使用`tensorflow`实现，并使用英文数据集
 - 预训练模型下载地址：  
-  - 中文预训练`RoBERTa`模型 [https://github.com/brightmart/roberta_zh]（https://github.com/brightmart/roberta_zh）
-  - 中文预训练`BERT-wwm`模型 [https://github.com/brightmart/roberta_zh]（https://github.com/brightmart/roberta_zh）
-  -  中文预训练`Bert`模型 [https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-chinese.tar.gz]（https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-chinese.tar.gz）
+  - 中文预训练`RoBERTa`模型 [https://github.com/brightmart/roberta_zh](https://github.com/brightmart/roberta_zh)
+  - 中文预训练`BERT-wwm`模型 [https://github.com/brightmart/roberta_zh](https://github.com/brightmart/roberta_zh)
+  -  中文预训练`Bert`模型 [https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-chinese.tar.gz](https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-chinese.tar.gz)
 
 #### :ledger: 1. 代码架构：
 
