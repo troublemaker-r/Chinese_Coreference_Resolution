@@ -74,8 +74,8 @@
   即可，默认使用第三块GPU(编号为2)。
   
   
-  #### :green_book: ​4. 结果（有点忘了是否是这个loss对应这个结果）
-  ![loss](https://user-images.githubusercontent.com/53570750/129696822-ab17902c-7537-4b36-8007-c51a64459675.png)
-  ![image](https://user-images.githubusercontent.com/53570750/129696982-4f7eb8e7-ef6f-4819-822c-ca8b10565777.png)
+#### :green_book: ​4. 结果（有点忘了是否是这个loss对应这个结果）
+![loss](https://user-images.githubusercontent.com/53570750/129696822-ab17902c-7537-4b36-8007-c51a64459675.png)
+![image](https://user-images.githubusercontent.com/53570750/129696982-4f7eb8e7-ef6f-4819-822c-ca8b10565777.png)
 
 
